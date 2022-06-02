@@ -38,4 +38,16 @@ public class DecoratorPatternTest {
         DecoratorPatternClient client = new DecoratorPatternClient(timeDecorator);
         client.execute();
     }
+
+    /**
+     * 요구사항 : 데코레이터 클래스를 구분하기 위해 데코레이터 추상 클래스 추가
+     */
+    @Test
+    void decorator3(){
+        Component realComponent = new RealComponent();
+        Decorator messageDecorator = new MessageDecorator(realComponent);
+        Decorator timeDecorator = new TimeDecorator(messageDecorator);
+        DecoratorPatternClient client = new DecoratorPatternClient(timeDecorator);
+        client.execute();
+    }
 }
