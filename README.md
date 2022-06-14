@@ -39,3 +39,12 @@
 - 리플렉션은 런타임 시점에 동작하기 때문에, 컴파일 시점에 오류를 잡을 수 없다.
 - 리플렉션은 프레임워크 개발이나 또는 매우 일반적인 공통 처리가 필요할 때 부분적으로 주의해서 사용해야한다.
 > 따라서 일반적으로  사용하면 안된다.
+
+### JDK 동적 프록시
+- proxy -> invocationHandler -> target
+
+![image](https://user-images.githubusercontent.com/76584547/173589645-1f7c714e-daa6-4424-90ef-0d567497eb86.png)
+
+
+
+![image](https://user-images.githubusercontent.com/76584547/173588651-fb8515aa-33ff-45c2-9f83-86f8379acc27.png)
