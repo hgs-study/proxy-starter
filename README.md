@@ -60,3 +60,6 @@
   - 구체클래스 생성 
   - `MethodInterceptor`를 구현해서 `intercept()`를 커스텀마이징
   - `Enhancer` 설정
+
+![image](https://user-images.githubusercontent.com/76584547/173610615-b89040a9-f9f3-4315-91c0-c32508497282.png)
+
